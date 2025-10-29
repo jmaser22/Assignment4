@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hotels>
+	<Hotel rating="4.5">
+		<name>Hotel1</name>
+		<phoneNum>8001234567</phoneNum>
+		<phoneNum>8007654321</phoneNum>
+		<address nearestAirport="O'Hare">
+			<number>1060</number>
+			<street>W Addison</street>
+			<city>Chicago</city>
+			<state>Illinois</state>
+			<zipcode>60613</zipcode>
+		</address>
+	</Hotel>
+</Hotels>

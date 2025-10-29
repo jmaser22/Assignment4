@@ -19,9 +19,9 @@ namespace ConsoleApp1
 
     public class Program
     {
-        public static string xmlURL = "Your XML URL";
-        public static string xmlErrorURL = "Your Error XML URL";
-        public static string xsdURL = "Your XSD URL";
+        public static string xmlURL = "https://jmaser22.github.io/Assignment4/ConsoleApp1/Hotels.xml";
+        public static string xmlErrorURL = "https://jmaser22.github.io/Assignment4/ConsoleApp1/HotelsErrors.xml";
+        public static string xsdURL = "https://jmaser22.github.io/Assignment4/ConsoleApp1/Hotels.xsd";
 
         public static void Main(string[] args)
         {
@@ -79,7 +79,7 @@ namespace ConsoleApp1
             
 
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
-            return jsonText;
+            return "jsonText";
 
         }
     }
