@@ -40,9 +40,38 @@ namespace ConsoleApp1
         // Q2.1
         public static string Verification(string xmlUrl, string xsdUrl)
         {
+            Boolean isValid = false;
+            String errorMessage = "";
 
+            XmlSchemaSet sc = new XmlSchemaSet();
+            sc.Add(null, xsdUrl);
 
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.ValidationType = ValidationType.Schema;
+            settings.Schemas = sc;
+
+            settings.ValidationEventHandler += (sender, e) => {
+                isValid = false;
+                errorMessage = e.Message;
+                Console.WriteLine($"{e.Severity}: {e.Message}");
+            };
+
+            XmlReader reader = XmlReader.Create(xmlUrl, settings);
+
+            while (reader.Read())
+            {
+                Console.WriteLine("The XML file validation has completed");
+            }
+
+            if (isValid)
+            {
+                Console.WriteLine("No Error");
+            } else
+            {
+                Console.WriteLine("error");
+            }
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
+            return isValid ? "No Error" : errorMessage;
         }
 
         public static string Xml2Json(string xmlUrl)
