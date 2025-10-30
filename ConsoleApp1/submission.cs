@@ -76,10 +76,13 @@ namespace ConsoleApp1
 
         public static string Xml2Json(string xmlUrl)
         {
-            
+            XmlDocument doc = new XmlDocument();
+            doc.Load(xmlUrl); // Load the XML file or URL
+
+            string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
 
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
-            return "jsonText";
+            return jsonText;
 
         }
     }
