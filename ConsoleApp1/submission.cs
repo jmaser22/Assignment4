@@ -57,21 +57,30 @@ namespace ConsoleApp1
             };
 
             XmlReader reader = XmlReader.Create(xmlUrl, settings);
-
-            while (reader.Read())
+            try
             {
-                Console.WriteLine("The XML file validation has completed");
-            }
+                while (reader.Read())
+                {
+                    Console.WriteLine("The XML file validation has completed");
+                }
 
+
+            }
+            catch (XmlException ex)
+            {
+                Console.WriteLine($"File is not well-formed: {ex.Message}");
+            }
             if (isValid)
             {
-                Console.WriteLine("No Error");
-            } else
+               Console.WriteLine("No Error");
+            }
+            else
             {
-                Console.WriteLine("error");
+            Console.WriteLine("error");
             }
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
             return isValid ? "No Error" : errorMessage;
+            
         }
 
         public static string Xml2Json(string xmlUrl)
