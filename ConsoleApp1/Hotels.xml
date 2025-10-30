@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Hotels xmlns="https://jmaser22.github.io/Assignment4/ConsoleApp1/Hotels.xsd">
+	
 	<Hotel rating="4.5">
 		<Name>Hotel1</Name>
 		<Phone>8001234567</Phone>
