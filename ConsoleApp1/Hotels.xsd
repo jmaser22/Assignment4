@@ -11,22 +11,22 @@
 				<xs:element name="Hotel" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="name" type="xs:string"/>
-							<xs:element name="phoneNum" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-							<xs:element name="address">
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+							<xs:element name="Address">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="number" type="xs:string"/>
-										<xs:element name="street" type="xs:string"/>
-										<xs:element name="city" type="xs:string"/>
-										<xs:element name="state" type="xs:string"/>
-										<xs:element name="zipcode" type="xs:string"/>
+										<xs:element name="Number" type="xs:string"/>
+										<xs:element name="Street" type="xs:string"/>
+										<xs:element name="City" type="xs:string"/>
+										<xs:element name="State" type="xs:string"/>
+										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
-									<xs:attribute name="nearestAirport" type="xs:string" use="required"/>
+									<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="rating" type="xs:double" use="optional"/>
+						<xs:attribute name="Rating" type="xs:double" use="optional"/>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

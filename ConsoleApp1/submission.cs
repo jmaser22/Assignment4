@@ -61,15 +61,17 @@ namespace ConsoleApp1
             {
                 while (reader.Read())
                 {
-                    Console.WriteLine("The XML file validation has completed");
+                    //Console.WriteLine("The XML file validation has completed");
                 }
 
-
+               // isValid = true;
             }
             catch (XmlException ex)
             {
-                Console.WriteLine($"File is not well-formed: {ex.Message}");
+                errorMessage = ex.Message;
+                //Console.WriteLine($"File is not well-formed: {ex.Message}");
             }
+            /*
             if (isValid)
             {
                Console.WriteLine("No Error");
@@ -78,6 +80,7 @@ namespace ConsoleApp1
             {
             Console.WriteLine("error");
             }
+            */
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
             return isValid ? "No Error" : errorMessage;
             
