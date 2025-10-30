@@ -40,7 +40,7 @@ namespace ConsoleApp1
         // Q2.1
         public static string Verification(string xmlUrl, string xsdUrl)
         {
-            Boolean isValid = false;
+            Boolean isValid = true;
             String errorMessage = "";
 
             XmlSchemaSet sc = new XmlSchemaSet();
@@ -64,7 +64,7 @@ namespace ConsoleApp1
                     //Console.WriteLine("The XML file validation has completed");
                 }
 
-               isValid = true;
+               // isValid = true;
             }
             catch (XmlException ex)
             {

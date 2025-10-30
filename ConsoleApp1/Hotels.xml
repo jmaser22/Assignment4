@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <Hotels>
+	xmlns="http://example.com/hotels"
 	<Hotel rating="4.5">
 		<Name>Hotel1</Name>
 		<Phone>8001234567</Phone>
