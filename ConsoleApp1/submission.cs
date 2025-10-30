@@ -64,7 +64,7 @@ namespace ConsoleApp1
                     //Console.WriteLine("The XML file validation has completed");
                 }
 
-               // isValid = true;
+               isValid = true;
             }
             catch (XmlException ex)
             {

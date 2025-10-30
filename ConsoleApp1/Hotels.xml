@@ -1,123 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Hotels>
 	<Hotel rating="4.5">
-		<name>Hotel1</name>
-		<phoneNum>8001234567</phoneNum>
-		<phoneNum>8007654321</phoneNum>
-		<address nearestAirport="O'Hare Int'l">
-			<number>1060</number>
-			<street>W Addison</street>
-			<city>Chicago</city>
-			<state>Illinois</state>
-			<zipcode>60613</zipcode>
-		</address>
+		<Name>Hotel1</Name>
+		<Phone>8001234567</Phone>
+		<Phone>8007654321</Phone>
+		<Address NearestAirport="O'Hare Int'l">
+			<Number>1060</Number>
+			<Street>W Addison</Street>
+			<City>Chicago</City>
+			<State>Illinois</State>
+			<Zip>60613</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="4.8">
-		<name>Hotel2</name>
-		<phoneNum>8001123417</phoneNum>
-		<phoneNum>8007356731</phoneNum>
-		<address nearestAirport="LaGuardia Int'l">
-			<number>1</number>
-			<street>E 161st</street>
-			<city>Bronx</city>
-			<state>New York</state>
-			<zipcode>10451</zipcode>
-		</address>
+		<Name>Hotel2</Name>
+		<Phone>8001123417</Phone>
+		<Phone>8007356731</Phone>
+		<Address NearestAirport="LaGuardia Int'l">
+			<Number>1</Number>
+			<Street>E 161st</Street>
+			<City>Bronx</City>
+			<State>New York</State>
+			<Zip>10451</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="3.6">
-		<name>Hotel3</name>
-		<phoneNum>8001153617</phoneNum>
-		<phoneNum>8007345631</phoneNum>
-		<address nearestAirport="Boston Logan Int'l">
-			<number>4</number>
-			<street>Jersey</street>
-			<city>Boston</city>
-			<state>Massachussets</state>
-			<zipcode>02215</zipcode>
-		</address>
+		<Name>Hotel3</Name>
+		<Phone>8001153617</Phone>
+		<Phone>8007345631</Phone>
+		<Address NearestAirport="Boston Logan Int'l">
+			<Number>4</Number>
+			<Street>Jersey</Street>
+			<City>Boston</City>
+			<State>Massachussets</State>
+			<Zip>02215</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="3.5">
-		<name>Hotel4</name>
-		<phoneNum>800123417</phoneNum>
-		<phoneNum>800457731</phoneNum>
-		<address nearestAirport="LAX Int'l">
-			<number>1000</number>
-			<street>Vin Scully </street>
-			<city>Los Angeles</city>
-			<state>California</state>
-			<zipcode>90012</zipcode>
-		</address>
+		<Name>Hotel4</Name>
+		<Phone>800123417</Phone>
+		<Phone>800457731</Phone>
+		<Address NearestAirport="LAX Int'l">
+			<Number>1000</Number>
+			<Street>Vin Scully </Street>
+			<City>Los Angeles</City>
+			<State>California</State>
+			<Zip>90012</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="3.4">
-		<name>Hotel5</name>
-		<phoneNum>8001642417</phoneNum>
-		<phoneNum>80068499731</phoneNum>
-		<address nearestAirport="San Franciso Int'l">
-			<number>24</number>
-			<street>Willie Mays Plaza</street>
-			<city>San Francisco</city>
-			<state>California</state>
-			<zipcode>94107</zipcode>
-		</address>
+		<Name>Hotel5</Name>
+		<Phone>8001642417</Phone>
+		<Phone>80068499731</Phone>
+		<Address NearestAirport="San Franciso Int'l">
+			<Number>24</Number>
+			<Street>Willie Mays Plaza</Street>
+			<City>San Francisco</City>
+			<State>California</State>
+			<Zip>94107</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="4.0">
-		<name>Hotel6</name>
-		<phoneNum>8001841817</phoneNum>
-		<phoneNum>800736841</phoneNum>
-		<address nearestAirport="Baltimore/Washingtion Int'l">
-			<number>333</number>
-			<street>W Camden</street>
-			<city>Baltimore</city>
-			<state>Maryland</state>
-			<zipcode>21201</zipcode>
-		</address>
+		<Name>Hotel6</Name>
+		<Phone>8001841817</Phone>
+		<Phone>800736841</Phone>
+		<Address NearestAirport="Baltimore/Washingtion Int'l">
+			<Number>333</Number>
+			<Street>W Camden</Street>
+			<City>Baltimore</City>
+			<State>Maryland</State>
+			<Zip>21201</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="3.8">
-		<name>Hotel7</name>
-		<phoneNum>8001324248</phoneNum>
-		<phoneNum>8007348246</phoneNum>
-		<address nearestAirport="William P Hobby Int'l">
-			<number>501</number>
-			<street>Crawford</street>
-			<city>Houston</city>
-			<state>Texas</state>
-			<zipcode>77002</zipcode>
-		</address>
+		<Name>Hotel7</Name>
+		<Phone>8001324248</Phone>
+		<Phone>8007348246</Phone>
+		<Address NearestAirport="William P Hobby Int'l">
+			<Number>501</Number>
+			<Street>Crawford</Street>
+			<City>Houston</City>
+			<State>Texas</State>
+			<Zip>77002</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="4.6">
-		<name>Hotel8</name>
-		<phoneNum>8035423417</phoneNum>
-		<phoneNum>8007353543</phoneNum>
-		<address nearestAirport="Pittsburgh Int'l">
-			<number>115</number>
-			<street>Federal</street>
-			<city>Pittsburgh</city>
-			<state>Pennsylvania</state>
-			<zipcode>15212</zipcode>
-		</address>
+		<Name>Hotel8</Name>
+		<Phone>8035423417</Phone>
+		<Phone>8007353543</Phone>
+		<Address NearestAirport="Pittsburgh Int'l">
+			<Number>115</Number>
+			<Street>Federal</Street>
+			<City>Pittsburgh</City>
+			<State>Pennsylvania</State>
+			<Zip>15212</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="2.5">
-		<name>Hotel9</name>
-		<phoneNum>8001123159</phoneNum>
-		<phoneNum>800735357</phoneNum>
-		<address nearestAirport="St. Louis Lambert Int'l">
-			<number>700</number>
-			<street>Clark</street>
-			<city>St. Louis</city>
-			<state>Missouri</state>
-			<zipcode>63102</zipcode>
-		</address>
+		<Name>Hotel9</Name>
+		<Phone>8001123159</Phone>
+		<Phone>800735357</Phone>
+		<Address NearestAirport="St. Louis Lambert Int'l">
+			<Number>700</Number>
+			<Street>Clark</Street>
+			<City>St. Louis</City>
+			<State>Missouri</State>
+			<Zip>63102</Zip>
+		</Address>
 	</Hotel>
 	<Hotel rating="5.0">
-		<name>Hotel10</name>
-		<phoneNum>8001136917</phoneNum>
-		<phoneNum>8007366321</phoneNum>
-		<address nearestAirport="Seattle-Tacoma Int'l">
-			<number>1250</number>
-			<street>1st Avenue South</street>
-			<city>Seattle</city>
-			<state>Washington</state>
-			<zipcode>98134</zipcode>
-		</address>
+		<Name>Hotel10</Name>
+		<Phone>8001136917</Phone>
+		<Phone>8007366321</Phone>
+		<Address NearestAirport="Seattle-Tacoma Int'l">
+			<Number>1250</Number>
+			<Street>1st Avenue South</Street>
+			<City>Seattle</City>
+			<State>Washington</State>
+			<Zip>98134</Zip>
+		</Address>
 	</Hotel>
 </Hotels>
